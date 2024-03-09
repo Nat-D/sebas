@@ -1,0 +1,11 @@
+name: sebas
+
+dependencies:
+- python=3.11
+- pip
+- pip:
+  - uvicorn[standard]==0.27.1
+  - fastapi[all]==0.110.0
+  - python-dotenv==1.0.0
+  - pydantic==2.6.2
+  - langchain

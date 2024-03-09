@@ -2,6 +2,11 @@
 
 ## Setup
 
+0. Install docker and setup Nvidia container toolkit
+
+https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html
+
+
 1. run ollama server (with GPU)
 ```
     docker compose -f docker-compose-gpu.yml up -d

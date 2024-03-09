@@ -4,7 +4,7 @@
 
 1. run ollama server 
 ```
-    docker-compose up -d
+    docker-compose -f docker-compose-gpu.yml up -d
 ```
 
 2. Download llama2 model. (The model is around 4 gb.)
@@ -13,4 +13,6 @@
         "name": "llama2"
     }'
 ```
+
+3. Try out your 
 

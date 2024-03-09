@@ -2,9 +2,13 @@
 
 ## Setup
 
-1. run ollama server 
+1. run ollama server (with GPU)
 ```
     docker-compose -f docker-compose-gpu.yml up -d
+```
+or without gpu
+```
+    docker-compose -f docker-compose.yml up -d
 ```
 
 2. Download llama2 model. (The model is around 4 gb.)
@@ -14,5 +18,16 @@
     }'
 ```
 
-3. Try out your 
+3. Try talk to the model
+```
+    curl http://localhost:11434/api/chat -d '{
+        "model": "llama2",
+        "messages": [
+            {
+            "role": "user",
+            "content": "why is the sky blue?"
+            }
+        ]
+    }'
+```
 

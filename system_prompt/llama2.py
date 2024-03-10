@@ -7,5 +7,5 @@ class Llama2SystemPrompt(BaseSystemPrompt):
         {prompt}
         <</SYS>>
 
-        {user_message}[/INST]
+        {user_message}[/INST]</s>
         """

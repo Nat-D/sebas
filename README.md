@@ -38,13 +38,13 @@ or without gpu
 
 # Things to try out.
 
-[ ] System prompt
-[ ] Memory and Chatbot capability
-[ ] Using RAG
-[ ] Output JSON format and validation
-[ ] Output parsing
-[ ] Calling external functions
-[ ] Try Thai Language  
+- [ ] System prompt
+- [ ] Memory and Chatbot capability
+- [ ] Using RAG
+- [ ] Output JSON format and validation
+- [ ] Output parsing
+- [ ] Calling external functions
+- [ ] Try Thai Language  
 
 
 
